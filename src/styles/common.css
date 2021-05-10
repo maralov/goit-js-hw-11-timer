@@ -31,3 +31,11 @@ main {
 footer {
   flex: 0 0 auto;
 }
+
+.value {
+  min-width: 85px;
+  min-height: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
