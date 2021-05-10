@@ -4,11 +4,38 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Homework </title>
+    <title>Homework 11 - Timer</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
 
   </head>
   <body>
-    <main>
+    <main class="d-flex align-items-center">
+
+      <div class="container">
+        <div class="timer row justify-content-center" id="timer-1">
+          <div class="field col-2 col-lg-1 d-flex flex-column align-items-center">
+            <span class="value border rounded p-3 bg-light h1" data-value="days">11</span>
+            <span class="label h6 text-muted">Days</span>
+          </div>
+        
+          <div class="field col-2 col-lg-1 d-flex flex-column align-items-center">
+            <span class="value border rounded p-3 bg-light h1" data-value="hours">11</span>
+            <span class="label h6 text-muted">Hours</span>
+          </div>
+        
+          <div class="field col-2 col-lg-1 d-flex flex-column align-items-center">
+            <span class="value border rounded p-3 bg-light h1" data-value="mins">11</span>
+            <span class="label h6 text-muted">Minutes</span>
+          </div>
+        
+          <div class="field col-2 col-lg-1 d-flex flex-column align-items-center">
+            <span class="value border rounded p-3 bg-light h1"  data-value="secs">11</span>
+            <span class="label h6 text-muted">Seconds</span>
+          </div>
+        </div>
+      </div>
+
     </main>
   </body>
 </html>
